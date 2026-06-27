@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telegram Trading Channel</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #f0f4ff, #ffffff);
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #007bff;
+      color: #fff;
+      padding: 14px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      margin: 10px 0;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      background: #0056d2;
+    }
+
+    .logo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      margin: 20px auto;
+      overflow: hidden;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    }
+
+    .logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin: 15px 0;
+      color: #111;
+    }
+
+    .points {
+      text-align: left;
+      margin: 15px 0;
+    }
+
+    .points p {
+      margin: 8px 0;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .check {
+      color: green;
+      margin-right: 8px;
+      font-weight: bold;
+    }
+
+    .highlight {
+      color: #007bff;
+      font-weight: 600;
+      margin: 15px 0;
+    }
+
+    .disclaimer {
+      font-size: 10px;
+      color: #777;
+      margin-top: 15px;
+    }
+
+    .footer {
+      margin-top: 20px;
+      padding: 10px;
+      border-radius: 20px;
+      background: linear-gradient(45deg, #ff6a00, #ff0000);
+      color: #fff;
+      font-size: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- 🔥 CHANGE LINKS HERE ONLY -->
+  <script>
+    const TELEGRAM_LINK = "https://t.me/yourchannel";   // 👉 change here
+    const LOGO_IMAGE = "https://via.placeholder.com/150"; // 👉 change image here
+    const FOOTER_LINK = "https://t.me/youragency"; // 👉 change footer link
+  </script>
+
+  <!-- Top Button -->
+  <a id="topBtn" class="btn">JOIN NOW FOR FREE TELEGRAM CHANNEL 🚀</a>
+
+  <!-- Logo -->
+  <div class="logo">
+    <img id="logoImg" src="" alt="logo">
+  </div>
+
+  <!-- Title -->
+  <h1>ZERO TO HERO</h1>
+
+  <!-- Points -->
+  <div class="points">
+    <p><span class="check">✓</span>Nifty, BankNifty & Options calls with 90% accuracy</p>
+    <p><span class="check">✓</span>1–4 Risk Reward Ratio • Daily 2–3 calls</p>
+    <p><span class="check">✓</span>Target 100+ Points Daily • Most Trusted Channel</p>
+  </div>
+
+  <!-- Highlight -->
+  <div class="highlight">Join Today For FREE! 🚀</div>
+
+  <!-- Bottom Button -->
+  <a id="bottomBtn" class="btn">JOIN NOW FOR FREE TELEGRAM CHANNEL 🚀</a>
+
+  <!-- Disclaimer -->
+  <div class="disclaimer">
+    Disclaimer: Educational content only. Not SEBI registered. Trading involves risk.
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    🔥 <a id="footerLink" target="_blank">Ads by Snow ad agency • Boost Reach 🚀</a>
+  </div>
+
+</div>
+
+<script>
+  // Auto apply links everywhere
+  document.getElementById("topBtn").href = TELEGRAM_LINK;
+  document.getElementById("bottomBtn").href = TELEGRAM_LINK;
+  document.getElementById("logoImg").src = LOGO_IMAGE;
+  document.getElementById("footerLink").href = FOOTER_LINK;
+</script>
+
+</body>
+</html>
